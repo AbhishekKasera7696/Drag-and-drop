@@ -1,0 +1,19 @@
+.container {
+  display: grid;
+  justify-content: space-around; /* Or use 'space-between', 'space-evenly' as per design preference */
+  align-items: center;
+  height: 100vh; /* Optional: Adjust height as needed */
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(195, 137, 112);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: bold;
+  border: 2px solid #333;
+}
